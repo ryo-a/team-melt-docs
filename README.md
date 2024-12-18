@@ -1,23 +1,18 @@
-# Nextra Docs Template 
+# team-melt-docs
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Project:;COLDシリーズのファンサイト https://www.team-melt.net/ のコンテンツを保持するrepositoryです。
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+[Nextra](https://nextra.site/)の[nextra-docs-template](https://github.com/shuding/nextra-docs-template)を利用して、Vercel上で動作させています。
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## ローカルでの実行
 
-## Quick Start
+```
+pnpm i
+pnpm dev
+```
 
-Click the button to clone this repository and deploy it on Vercel:
+## 編集ガイドライン
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+現時点ではプロトタイプなのでガイドラインをきっちり定めているわけではありませんが、 `/pages` フォルダ以下に `mdx` ファイルを格納してください。
 
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+編集提案があるものの、Pull Requestの出し方が分からない場合、Discord上でメンションをください。
