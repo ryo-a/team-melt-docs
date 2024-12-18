@@ -19,7 +19,7 @@ const config = {
       <>
         <meta
           property="og:image"
-          content={`https://team-melt.ne/api/ogp?title=${title}`}
+          content={`https://www.team-melt.net/api/ogp?title=${title}`}
         />
       </>
     );
