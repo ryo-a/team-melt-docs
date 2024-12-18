@@ -1,15 +1,10 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "index": "このサイトについて",
+  "terminology": "Project;:COLD 用語集",
   "contact": {
-    "title": "Contact ↗",
+    "title": "公式サイト",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.project-cold.net/",
     "newWindow": true
   }
 }
