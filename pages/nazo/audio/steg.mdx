@@ -1,0 +1,25 @@
+---
+title: "応用: 音声ステガノグラフィ"
+---
+
+# 音声ステガノグラフィ
+
+これまでに出題例はありませんが、音声データのステガノグラフィを仕込む手法があります。
+与えられた音声データを普通に聴いてみて、単にノイズに聞こえるなど、情報が得られなさそうだったら解析を試してみるのも良いでしょう。
+
+## ステガノグラフィ解析実習
+
+Wikipediaに[音声データ](https://commons.wikimedia.org/wiki/File:Drawing_of_the_word_Wikipedia_transformed_into_a_wav_file_(Coagula_software).wav)の例があります（音量注意）。今回はこのデータを使います。
+
+
+ダウンロードした音声ファイルをSonic Visualiserにドラッグアンドドロップして読み込むと、波形（waveform）が表示されます。マウスのホイールをスクロールすると拡大縮小できます。
+
+![](./images/sonic_visualiser_default_screen.png)
+
+Layer → Add Spectrogram → Drawing... をクリックします。
+
+![](./images/sonic_visualiser_menu_spectrogram.png)
+
+スペクトログラムが表示され、周波数成分として隠されていた文字が表示されます。
+
+![](./images/sonic_visualiser_spectrogram.png)

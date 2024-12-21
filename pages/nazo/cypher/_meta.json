@@ -1,0 +1,5 @@
+{
+  "simple-substitution": "単純な換字式暗号",
+  "complex-substitution": "複雑な換字式暗号",
+  "encode": "文字のエンコード・デコード"
+}
