@@ -5,7 +5,7 @@ import { useConfig } from 'nextra-theme-docs'
 const config = {
   logo: <span>Project:;COLD 攻略サイト（非公式）</span>,
   footer: {
-    text: 'このページはファン有志によるWebサイトです。Project:;COLDおよび第四境界とは関係ございません。管理者: ryo-a',
+    text: 'ファン有志によるWebサイトです。Project:;COLDおよび第四境界とは関係ございません。リンク・SNSへの投稿は大歓迎です。管理者: ryo-a',
   },
   editLink: {
     component: null
