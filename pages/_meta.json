@@ -3,10 +3,16 @@
   "how-to-join": "Project:;COLDシリーズをプレイするには？",
   "cases": "case番号（作品リスト）",
   "terminology": "Project;:COLD 用語集",
-  "contact": {
-    "title": "公式サイト",
+  "official": {
+    "title": "🔗公式サイト",
     "type": "page",
     "href": "https://www.project-cold.net/",
+    "newWindow": true
+  },
+  "tools": {
+    "title": "🔗便利ツール集（外部サイト）",
+    "type": "page",
+    "href": "https://dse-kousakuin-tools.glitch.me/",
     "newWindow": true
   }
 }
