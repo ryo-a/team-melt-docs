@@ -82,7 +82,7 @@ h3ll0 pr0j3c7 c0ld
 
 ### 点字・手話
 
-点字は実用的な記号ですが、ある文字をある記号に置き換えるという意味では、謎解きにおいては換字式暗号の1つだと考えることができます。
+**点字**（Braille）は実用的な記号ですが、ある文字をある記号に置き換えるという意味では、謎解きにおいては換字式暗号の1つだと考えることができます。
 
 また、手話の指文字（ひらがなやアルファベットを1文字ずつ表したもの）も同様の例といえるでしょう。
 
@@ -99,7 +99,7 @@ h3ll0 pr0j3c7 c0ld
 
 日本ではあまり見かけない外国語の文字や、古代文字などを使った表記もあります。
 
-たとえば、[Ds試験　第6問](https://x.com/daiyonkyokai/status/1865380763094667449)では[オガム文字](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%AC%E3%83%A0%E6%96%87%E5%AD%97)が出題されました。このような文字は覚える必要はなく、Google Lensを用いた画像検索などで文字の種類さえ特定できれば、Wikipediaなどに記載されている対応表などを使ってアルファベットに変換（翻字）できます。
+たとえば、[Ds試験 第6問](https://x.com/daiyonkyokai/status/1865380763094667449)では[オガム文字](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%AC%E3%83%A0%E6%96%87%E5%AD%97)が出題されました。このような文字は覚える必要はなく、Google Lensを用いた画像検索などで文字の種類さえ特定できれば、Wikipediaなどに記載されている対応表などを使ってアルファベットに変換（翻字）できます。
 
 また、`Ogham decoder` のように、文字の英語名と "decoder" という単語でGoogle検索すると、文字によっては便利な翻字ツールが見つかるかもしれません。
 
@@ -107,27 +107,40 @@ h3ll0 pr0j3c7 c0ld
 
 ### 腕木通信
 
-**腕木通信**（うでぎつうしん）は18世紀末からフランスで使用されていた通信方法です。腕木と呼ばれる機械を動かした形で文字を伝達します。
+**腕木通信**（うでぎつうしん、optical telegraph）は18世紀末からフランスで使用されていた通信方法です。腕木と呼ばれる機械を動かした形で文字を伝達します。
 
-腕木の形とアルファベットの対応関係に決まったものはなく、時代などによって変化したとされています。フランス語版Wikipediaには[架空の対応表](https://commons.wikimedia.org/wiki/File:Chappe.svg)が示されており、腕木がどのような動きをするかの参考にはなるでしょう。
+腕木の形とアルファベットの対応関係に決まったものはなく、時代などによって変化したとされています。フランス語版Wikipediaには[架空の対応表](https://commons.wikimedia.org/wiki/File:Chappe.svg)が示されており、腕木がどのような動きをするかの参考にはなるでしょう（また、容易に参照できる根拠として、謎解きでもこの表が使われる可能性はありそうです）。
 
 情報セキュリティの大会「SECCON」では、[50分に及ぶ腕木通信の動画を解読することでQRコードが得られる問題](https://www.youtube.com/watch?v=Y6voaURtKlM)が出題されたこともあります。この動画では、腕木とアルファベットの対応関係を明確にするために、冒頭に文字を書き起こすシーンが含まれています。
 
 ### 手旗信号
 
-**手旗信号**（てばたしんごう） は、船舶の上で人が旗を振って文字を伝える手法です。腕木通信をもとに、人間が行えるように工夫されたものです。こちらは対応関係が決まっており、復号が可能です。
+**手旗信号**（てばたしんごう、flag semaphore） は、船舶の上で人が旗を振って文字を伝える手法です。腕木通信をもとに、人間が行えるように工夫されたものです。こちらは腕木通信と異なり、文字と旗の対応関係が規格として決まっており、復号が可能です。
 
+英語の手旗信号は1文字あたり1つの動き（形）になっています（[動画](https://www.youtube.com/watch?v=LFWQ6usrSCM)）。しかし、[日本語の手旗信号](https://web.archive.org/web/20010205071800/https://www.jsf.fukuoka-city.com/jsffm21.html)は複数の動きを組み合わせて1文字を表現します（[動画](https://www.youtube.com/watch?v=TqdOgEgFGmM)）。
+
+英語版に関しては **[dCodeのSemaphore Decoder](https://www.dcode.fr/semaphore-flag)** のような解読ツールも存在します。
 
 ### 国際信号旗
 
-**国際信号旗**（旗りゅう信号）も、船舶の通信に用いられる旗です。旗の1枚1枚に「援助を求む」「本船を避けよ」のような意味があるだけでなく、連続して掲揚することにより、アルファベットや数字の伝達が可能です。日本語（かな）はありません。
+**国際信号旗**（旗りゅう信号、international maritime signal flags）も、船舶の通信に用いられる旗です。旗の1枚1枚に「援助を求む」「本船を避けよ」のような意味があるだけでなく、連続して掲揚することにより、アルファベットや数字の伝達が可能です。日本語（かな）はありません。
+
+**[dCodeのNavy Signal Flags Decoder](https://www.dcode.fr/maritime-signals-code)** のような解読ツールが存在します。
 
 - 参考記事: [国際信号旗｜お役立ちマリン情報](https://wam.sub.jp/home/contents/info/flag.html)
 
 ### 踊る人形
 
+**[踊る人形](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8B%E4%BA%BA%E5%BD%A2)**（The Dancing Men） はアーサー・コナン・ドイルによる小説です。その中で用いられた換字式暗号も「踊る人形」と称されます。アルファベットと人の動きが1対1に対応している、シンプルなものです。
+
+小説に登場しなかった8文字（F, J, K, Q, U, W, X, Z）は定義されていませんが、非公式に補われたものが暗号として用いられる事が多いようです。**[dCodeのDancing Men Decoder](https://www.dcode.fr/dancing-men-cipher)** のような解読ツールが存在します。
+
+- 参考記事: [Dancing Men Alphabet - The Arthur Conan Doyle Encyclopedia](https://www.arthur-conan-doyle.com/index.php/Dancing_Men_Alphabet)
+
 ### 楽譜・音符
 
-音階はド、レ、ミ……やC, D, E...のように文字で表現できるため、楽譜の表記で文字を表現する謎もあります。
+音階はド、レ、ミ……やC, D, E...のように文字で表現できるため、楽譜の表記で文字を表現する謎もあります。また、[音階にアルファベットを割り当てた暗号](https://ericsams.org/index.php/on-cryptography/333-musical-cryptography)も考案されています。
 
-- 参考記事: [音名と階名 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%9F%B3%E5%90%8D%E3%81%A8%E9%9A%8E%E5%90%8D)（[英語版](https://en.wikipedia.org/wiki/Key_signature_names_and_translations)）
+- 参考記事
+  - [音名と階名 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%9F%B3%E5%90%8D%E3%81%A8%E9%9A%8E%E5%90%8D)（[英語版](https://en.wikipedia.org/wiki/Key_signature_names_and_translations)）
+  - [メッセージを暗号化して「音」の一つ一つに置き換える遊びが大作曲家たちによって行われていた - GIGAZINE](https://gigazine.net/news/20180330-musical-cryptography/)
