@@ -29,3 +29,15 @@
   color: #fff;
   width: 100%;
 }
+
+.noticeBox{
+  border: 1px solid #009966;
+  background-color: #D0FAE5;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #006045;
+  width: 100%;
+  font-weight: 600;
+
+}
