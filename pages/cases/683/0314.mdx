@@ -1,0 +1,43 @@
+---
+title: "3/14の記録"
+---
+
+import { TwitterTweetEmbed } from "react-twitter-embed";
+import YouTube from 'react-youtube';
+import AccordionBox from '../../../components/accordionBox';
+
+
+## 2025-03-14
+
+<TwitterTweetEmbed
+  tweetId={'1900502166801985860'}
+/>
+
+> (DeepLによる和訳)  
+> 2024 年 11 月 22 日、ついに適合者へのアクセスに成功した。「レアエナジー」不足の中、PCでサウンドデータを流して一瞬注目を集めることしかできなかった。
+
+
+3/10, 3/12の投稿と同様に、融解班は文字列をつなげてURLを導き出した。
+
+```
+https://bit.ly/1x726xx9S156x423ExxHE_voice_AlphaonlyAAnothing
+```
+
+すると、以下のYouTube動画が得られた。
+
+<YouTube
+  videoId={'ctTsder6OS0'}
+/>
+
+この動画には字幕が出るようになっており、以下の文字列が表示されていた。
+
+```
+I got this from 縺九↑縺 computer.
+```
+
+文字化けしている `縺九↑縺`の復元を試みると `かな?` となる。
+
+![](./images/kana_.png)
+
+文字化けの仕組み上、`?` には `あ` ～ `た` までの任意のひらがなが入り、名前が一意に求められない。
+融解班は `かなた` などではないかと推測し、アカウントを探索したり、その日の前後で「パソコンから音が鳴った」という投稿を探し求めたり、音声データの解析（逆再生・スペクトログラム）を試みたりしたが、特にそれ以上の進展は得られなかった。
